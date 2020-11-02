@@ -1,0 +1,21 @@
+.item-links {
+  cursor: pointer;
+}
+.item-links {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.item-links a {
+  text-decoration: none !important;
+  padding: 10px;
+  margin: 20px 20px;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.item-links a:hover {
+  color: #f97e19;
+}

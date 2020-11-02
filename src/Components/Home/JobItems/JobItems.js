@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import fakeData from '../../../images/fakeData';
 import JobsCard from './JobsCard/JobsCard';
-
+import './JobItems.css'
 
 
 const JobItems = () => {
@@ -15,18 +15,23 @@ const JobItems = () => {
         setJobs(selectedCategory)
     },[category])
 
+    const linkActiveStyle = {
+        color: '#f97e19',
+        borderBottom: '2px solid #f97e19'
+    }
+
     return (
         <>
       
         <div className="container">
             
             <div className="item-links">
-                <a onClick={() =>setCategory('web')}> Web Development</a>
-                <a onClick={() =>setCategory('software')}> Software Development</a>
-                <a onClick={() =>setCategory('sqa')}> Software Quality Assurance</a>
+                <a style={category == 'web' ? linkActiveStyle : {}} onClick={() =>setCategory('web')}> Web Development</a>
+                <a style={category == 'software' ? linkActiveStyle : {}} onClick={() =>setCategory('software')}> Software Development</a>
+                <a style={category == 'sqa' ? linkActiveStyle : {}} onClick={() =>setCategory('sqa')}> Software Quality Assurance</a>
                 
             </div>
-            <div className="row">
+            <div className="row justify-content-center">
                 {
                     jobs.map(job => <JobsCard job={job}></JobsCard>)
                 }

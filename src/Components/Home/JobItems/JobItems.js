@@ -21,7 +21,7 @@ const JobItems = () => {
         <div className="container">
             
             <div className="item-links">
-                <a  onClick={() =>setCategory('web')}> Web Development</a>
+                <a onClick={() =>setCategory('web')}> Web Development</a>
                 <a onClick={() =>setCategory('software')}> Software Development</a>
                 <a onClick={() =>setCategory('sqa')}> Software Quality Assurance</a>
                 

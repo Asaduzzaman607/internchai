@@ -1,0 +1,13 @@
+.footer-texts{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icon{
+    margin-right: 10px;
+}

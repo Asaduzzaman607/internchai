@@ -1,32 +1,35 @@
 import React from 'react';
-
+import './NavBar.css'
+import { Nav, Navbar} from 'react-bootstrap';
 const NavBar = () => {
-    return (
-        <div className="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <a class="navbar-brand" href="#">InternChai</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Find an Internship <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Contributors</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Post an Internship</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-        </div>
-    );
+  return (
+    <nav className="pt-4 container nav-text" >
+        <Navbar bg="transparent" expand="lg">
+            <Navbar.Brand href="#home">
+            InternChai
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="ml-auto">
+                <Nav.Link className="mr-3">Find an Internship</Nav.Link>
+                <Nav.Link className="mr-3" >Contributors</Nav.Link>
+                <Nav.Link className="mr-3">Contact Us</Nav.Link>
+                <Nav.Link className="mr-3" >Paid Internship</Nav.Link> 
+                </Nav>
+            </Navbar.Collapse>
+            </Navbar>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+  );  
 };
 
 export default NavBar;

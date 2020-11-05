@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './HeaderMain.css'
 const HeaderMain = () => {
     return (
-        <main className="container mt-5">
+        <main className="container header-main mt-10">
             <div className="row">
                 <div className="col-md-4">
                     <h1>Get your dream Internship</h1>

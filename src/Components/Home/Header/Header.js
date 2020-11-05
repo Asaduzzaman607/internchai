@@ -8,7 +8,7 @@ const Header = () => {
         <section>
             <div className="header-section">
                 <NavBar></NavBar>
-                <HeaderMain></HeaderMain>
+                <div className='header-main'><HeaderMain></HeaderMain></div>
             </div>
         </section>
     );

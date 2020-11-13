@@ -4,38 +4,38 @@ const fakeData =[
     category: 'web',   
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 },
 {
-    company:'BrainVire Infotech Inc',
+    company:'AndPlus',
     category: 'web',   
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 },
 {
-    company:'BrainVire Infotech Inc',
+    company:'BrainStation23',
     category: 'web',   
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 },
 {
-    company:'BrainVire Infotech Inc',
+    company:'Selise',
     category: 'sqa',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 }
@@ -45,8 +45,8 @@ const fakeData =[
     category: 'sqa',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 }
@@ -56,8 +56,8 @@ const fakeData =[
     category: 'sqa',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 }
@@ -67,8 +67,8 @@ const fakeData =[
     category: 'web',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 },
@@ -77,8 +77,8 @@ const fakeData =[
     category: 'software',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 },
@@ -87,8 +87,8 @@ const fakeData =[
     category: 'software',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 },
@@ -97,8 +97,8 @@ const fakeData =[
     category: 'software',    
     title: 'Junior Software Developer', 
     skills: ['react.js', 'node.js', 'mongoDB'],
-    workType: 'Work From Home',
-    workSchedule: 'Flexible Timing',
+    workType: 'Work From',
+    workSchedule: 'Flexible',
     details: 'View Details'
 
 }

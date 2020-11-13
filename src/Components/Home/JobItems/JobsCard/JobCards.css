@@ -1,0 +1,50 @@
+.jobCards{
+    width:1100px;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    box-shadow:2px 2px 2px 2px #F3F4F6;
+    margin:20px;
+    padding:30px;
+}
+.card-left{
+    display: flex;
+}
+.card-right{
+    display: flex;
+    justify-content:space-between;
+}
+.text{
+    margin-left:23px;
+    margin-top:15px;
+}
+.jobCards h3{
+    font-size:18px;
+    
+}
+.jobCards h2{
+    font-size:28px;
+    font-weight:800;
+}
+.jobCards p{
+    text-align:center;
+    margin-top:20px;
+    font-weight:bold;
+}
+.skill-btn{
+    background-color:#EFF1F3;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    margin-right:10px;
+    padding:5px 20px;
+    font-weight:bold; 
+}
+.work-type{
+    margin-right:60px;
+    margin-top:15px;
+}
+.details{
+    margin-right:30px;
+    margin-top:15px;
+}

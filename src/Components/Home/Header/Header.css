@@ -1,11 +1,26 @@
-.header-section {
-  background-image: url(../../../images//background.png);
+.header-section{
+  margin-top:121.1px;
+  height:700px;
+  background-image: url('../../../images/HeroPlusWave.svg');
   background-repeat: no-repeat;
-  background-position: cover;
-  height: 60vh;
-  width: 100%;
+  background-position:center bottom;
+  background-size:1920px auto;
 }
-
-/* .header-main{
-  margin-top: 40px;
-} */
+.header-main-section{
+  width:1920px;
+}
+.row{
+  margin-top:66px;
+}
+.hero{
+  left:-255px;
+  top:-70px;
+  z-index:-100;
+}
+.header-main-section h1{
+  font-size:64px;
+  font-weight:lighter !important;
+}
+.header-main-section p{
+  font-size:16px;
+}

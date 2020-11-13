@@ -5,8 +5,8 @@ const HeaderMain = () => {
         <main className="container header-main mt-10">
             <div className="row">
                 <div className="col-md-4">
-                    <h1>Get your dream Internship</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione sunt impedit animi voluptatem .</p>
+                    <h1 className="font-weight-bold" >Get your dream Internship!</h1>
+                    <p>Use our curated list of employers to find your own place at an internship as a developer.</p>
                     <button className="btn btn-primary">Find yours</button>
                 </div>
             </div>

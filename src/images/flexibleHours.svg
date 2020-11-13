@@ -1,0 +1,10 @@
+<svg id="time" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <circle id="Ellipse_3" data-name="Ellipse 3" cx="22.5" cy="22.5" r="22.5" fill="#e3eaf2"/>
+  <path id="Path_306" data-name="Path 306" d="M278.521,22.021C278.521,9.926,268.37,0,256,0V44.042C268.37,44.042,278.521,34.116,278.521,22.021Z" transform="translate(-234.242 0.721)" fill="#e3eaf2"/>
+  <path id="Path_307" data-name="Path 307" d="M77.655,61A16.7,16.7,0,1,0,94.309,77.656,16.675,16.675,0,0,0,77.655,61Z" transform="translate(-55.397 -54.913)" fill="#fff"/>
+  <path id="Path_308" data-name="Path 308" d="M273.155,77.656A16.93,16.93,0,0,0,256,61V94.4A17,17,0,0,0,273.155,77.656Z" transform="translate(-234.242 -54.913)" fill="#fff"/>
+  <path id="Path_309" data-name="Path 309" d="M242.32,121a1.319,1.319,0,0,0-1.32,1.32v13.2a1.32,1.32,0,0,0,2.639,0v-13.2A1.319,1.319,0,0,0,242.32,121Z" transform="translate(-220.056 -110.011)" fill="#e3eaf2"/>
+  <path id="Path_310" data-name="Path 310" d="M257.32,135.515v-13.2A1.319,1.319,0,0,0,256,121v15.835A1.319,1.319,0,0,0,257.32,135.515Z" transform="translate(-233.751 -110.011)" fill="#e3eaf2"/>
+  <path id="Path_311" data-name="Path 311" d="M222.876,241H212.32a1.32,1.32,0,0,0,0,2.639h10.557a1.32,1.32,0,1,0,0-2.639Z" transform="translate(-192.774 -219.583)" fill="#e3eaf2"/>
+  <path id="Path_312" data-name="Path 312" d="M265.237,242.32a1.319,1.319,0,0,0-1.32-1.32H256v2.639h7.918A1.319,1.319,0,0,0,265.237,242.32Z" transform="translate(-233.861 -219.583)" fill="#e3eaf2"/>
+</svg>

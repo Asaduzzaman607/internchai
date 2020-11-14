@@ -1,5 +1,21 @@
 .navbar{
     width:1100px;
     height:100px;
-    background-color:black;
+    margin-left:auto;
+    margin-right:auto;
+}
+.logo{
+    margin-right:auto;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    margin-right:40px;
+    margin-left:auto;
+    margin-top:10px;
+}
+.nav-links{
+    display: flex;
 }

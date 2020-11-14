@@ -21,10 +21,19 @@ const NavBar = () => {
   //       </nav>
   return (
     
-      <div className="d-flex justify-content-center">
-        <div className="navbar">
-          
-        </div>
+      <div className="d-flex navbar">
+        
+         
+            <div className="logo">
+              <img src={Logo} alt=""/>
+            </div>
+          <ul className="nav-links">
+            <li>Find an Internship</li>
+            <li>Contributors</li>
+            <li>Contact Us</li>
+            <li>Post an Internship</li>
+          </ul>
+        
       </div>
 
 

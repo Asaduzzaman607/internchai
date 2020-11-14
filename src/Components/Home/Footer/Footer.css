@@ -1,13 +1,20 @@
-.footer-texts{
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+footer{
+  height:408px;
+  background-color: #1B1F26;
+  background-repeat: no-repeat;
+  background-position:center bottom;
+  background-size:1920px auto;
+  color: white;
 }
-
-.icons{
-    display: flex;
+footer li{
+    list-style: none;
+    margin-bottom:34px;
+    font-weight:bold;
 }
-
-.icon{
-    margin-right: 10px;
+footer .col-4{
+    margin-top:113px;
+}
+.logos img{
+    margin-right:20px;
+    margin-top:280px;
 }

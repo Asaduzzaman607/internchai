@@ -11,7 +11,7 @@ const NewsLetter = () => {
                         <h2>Stay ahead of the curve!</h2>
                         <p>Subscribe to our newsletter to get updates on new postings</p>
                         <div className='input-group'>
-                            <input type="email" className="form-control" placeholder="enter you email"/>
+                            <input type="email" className="form-control" placeholder="Enter you email"/>
                             <span className='input-group-btn'> 
                                 <button className='btn' type='submit'>Subscribe Now!</button>
                             </span>

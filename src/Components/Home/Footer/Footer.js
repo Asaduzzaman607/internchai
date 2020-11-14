@@ -1,56 +1,42 @@
 import React from 'react';
 import './Footer.css'
-import {FaFacebook,FaFacebookSquare,FaLinkedin,FaGithubSquare} from 'react-icons/fa'
+import facebookLogo from '../../../images/facebook (1).svg';
+import linkedInLogo from '../../../images/linkedin-logo.svg';
+import githubLogo from '../../../images/github-sign.svg';
 const Footer = () => {
     return (
-        <div className='main-footer' style={{backgroundColor:'black'}}>
-            <div className='container footer-texts'>
-                <div className='row'>
-                    <div className="col-md-3 col-sm-3">
-                        <h4>Lorem Iosum</h4>
-                        <ul className='list-unstyled'>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lofrem ipsum</li>
-                        </ul>
-                    </div>
-                    <div className="col-md-3 col-sm-3">
-                        <h4>Lorem Iosum</h4>
-                        <ul className='list-unstyled'>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lorem ipsum</li>
-                            <li>Lofrem ipsum</li>
-                        </ul>
-                    </div>
-                    <div className="col-md-3 col-sm-3">
-                        
-                    </div>
-                    
-                    
-                    <div className="col-md-3 col-sm-3  mt-5 pt-5  d-flex justify-content-start">
-                        <div className='icons'>
-                            <div className='icon'>
-                            <FaFacebookSquare></FaFacebookSquare>
-                            </div>
-                            <div  className='icon'>
-                            <FaLinkedin></FaLinkedin>
-                            </div>
-                            <div  className='icon'>
-                            <FaGithubSquare></FaGithubSquare>
-                            </div>
-                        
-                        
-                        </div>
-                    </div>
-                    
+        <footer>
+          <div className="footer-links">
+            <div className="container">
+              <div className="row">
+                <div className="col-4">
+                  <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Post an Internship</li>
+                    <li>Be a Contributor</li>
+                  </ul>
                 </div>
-
-                
-
+                <div className="col-4">
+                    <ul>
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Post an Internship</li>
+                        <li>Be a Contributor</li>
+                        </ul>
+                </div>
+                <div className="col-2"></div>
+                <div className="col-2">
+                  <div className="logos">
+                  <img src={facebookLogo} alt=""/>
+                  <img src={linkedInLogo} alt=""/>
+                  <img src={githubLogo} alt=""/>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
+          </div>
+        </footer>
     );
 };
 

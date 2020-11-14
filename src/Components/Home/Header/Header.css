@@ -6,6 +6,11 @@
   background-position:center bottom;
   background-size:1920px auto;
 }
+.header-btn{
+  border:none;
+  outline:none;
+  
+}
 .header-main-section{
   width:1920px;
 }
